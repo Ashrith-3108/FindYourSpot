@@ -1,7 +1,7 @@
 
 # FindYourSpot
 
-FindYourSpot aims to create a parking system that will replace outdated systems and help stop the widespread problem that is parking in our cities. The goal of this project is to improve the effectiveness of finding parking spaces and to also relieve the stress of the users looking for parking by implementing new and innovative features. This will be done by building a client-server API and website that will show the user exactly where the parking is. The server will be supported by parking monitor clients powered by OpenCV to detect if a parking spot has been filled or made empty. To read more, please see the [thesis](./docs/thesis.pdf).
+FindYourSpot aims to create a parking system that will replace outdated systems and help stop the widespread problem that is parking in our cities. The goal of this project is to improve the effectiveness of finding parking spaces and to also relieve the stress of the users looking for parking by implementing new and innovative features. This will be done by building a client-server API and website that will show the user exactly where the parking is. The server will be supported by parking monitor clients powered by OpenCV to detect if a parking spot has been filled or made empty. To read more, please see the [thesis](./DOCX/thesis.pdf).
 
 ## Requirements
 
@@ -29,7 +29,8 @@ FindYourSpot aims to create a parking system that will replace outdated systems 
 Clone the repository
 
 ```bash
-git clone https://github.com/rhys-lit/perfect-parking-fyp.git
+git clone https://github.com/Ashrith-3108/FindYourSpot.git
+
 ```
 
 There are three applications in this project: the website server, a client parking monitor and a mock client parking monitor.
@@ -75,25 +76,25 @@ Built-in user accounts are:
 For the client parking monitor to run, the server must be running.
 
 1. Install dependencies
-    - With Pip (To fast execute, run on Windows [PerfectParkingClient/pip-install.bat](./PerfectParkingClient/pip-install.bat))
+    - With Pip (To fast execute, run on Windows [FindYourSpotClient/pip-install.bat](./FindYourSpotClient/pip-install.bat))
 
         ```bash
-        pip install -r PerfectParkingClient/requirements.txt
+        pip install -r FindYourSpotClient/requirements.txt
         ```
 
-    - With conda (To fast execute, run on Windows [PerfectParkingClient/conda-install.bat](./PerfectParkingClient/conda-install.bat))
+    - With conda (To fast execute, run on Windows [FindYourSpotClient/conda-install.bat](./FindYourSpotClient/conda-install.bat))
 
         ```bash
-        conda install --file PerfectParkingClient/requirements.txt
+        conda install --file FindYourSpotClient/requirements.txt
         ```
 
 2. The server must be running
-3. Open VS Code and run the app by selecting the `Run and Debug` (`Ctrl + Shift + D`) tab and select one of the client configurations e.g.,  `Client - Config Model Car Park Recording` from the dropdown menu. ![VS Code Run config](docs/images/readme/vs-code-run-config.png)
+3. Open VS Code and run the app by selecting the `Run and Debug` (`Ctrl + Shift + D`) tab and select one of the client configurations e.g.,  `Client - Config Model Car Park Recording` from the dropdown menu. ![VS Code Run config](DOCX/images/readme/vs-code-run-config.png)
 Then click the green play button to run the app, or
     Open a terminal and run the following command:
 
     ```bash
-    python PerfectParkingClient/main.py '--image' 'PerfectParkingClient/images/live-sample-3.png' '--data' 'PerfectParkingClient/data/coordinates-live-sample.yml' '--video' 'PerfectParkingClient/videos/live-sample-3.mp4' '--start-frame' '400'
+    python FindYourSpotClient/main.py '--image' 'FindYourSpotClient/images/live-sample-3.png' '--data' 'FindYourSpotClient/data/coordinates-live-sample.yml' '--video' 'FindYourSpotClient/videos/live-sample-3.mp4' '--start-frame' '400'
     ```
 
 4. Follow the instructions in the Window Title Bar.
@@ -103,12 +104,12 @@ Then click the green play button to run the app, or
 The live client configuration is used to get video from a phone app such as DroidCam. Note that the IP address of `192.168.188.106:4747` for Client Live configurations may need to be changed depending on your Network Configuration. This can be changed in the [launch.json](.vscode/launch.json) file. After running the app, the following steps will be shown in the Window Title Bar.
 
 1. Press `s` to select an image from the video feed to make your parking spaces on. Ideally, this should be an image of the car park with no cars in it.
-![Config Save Image](docs/images/readme/live-config-1-save-image.png)
+![Config Save Image](DOCX/images/readme/live-config-1-save-image.png)
 2. Mark the car parking spaces by clicking on the four corners of each parking space. Try not to include any white lines in the parking space.Press `q` when finished.
-![Config Make the parking spots](docs/images/readme/live-config-2-save-parking-spots.png)
+![Config Make the parking spots](DOCX/images/readme/live-config-2-save-parking-spots.png)
 3. Step 3: Watch the video feed and see the parking spaces being detected. Press `q` to quit when you are finished.
-![live sample empty](docs/images/readme/live-sample-1-empty.png)
-![live sample with cars](docs/images/readme/live-sample-2-cars.png)
+![live sample empty](DOCX/images/readme/live-sample-1-empty.png)
+![live sample with cars](DOCX/images/readme/live-sample-2-cars.png)
 
 ### Mock Client Parking Monitor
 
@@ -121,7 +122,7 @@ To run the mock client parking monitor, Open VS Code and run the app by selectin
 Open a terminal and run the following command:
 
 ```bash
-python PerfectParkingClient/mock.py
+FindYourSpotClient/mock.py
 ```
 
 You can stop the mock client by pressing `q` at any time.
