@@ -128,4 +128,4 @@ FindYourSpotClient/mock.py
 You can stop the mock client by pressing `q` at any time.
 
 ---
-Copyright &copy; 2024, [Ashrith Vavillapally](https://github.com/rhys-lit)
+Copyright &copy; 2024, [Ashrith Vavillapally](https://github.com/Ashrith-3108)
