@@ -1,0 +1,157 @@
+body {
+    padding: 25px;
+    background-color: #0A0809 !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+   border-radius: 300px;
+    height: 55px;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    padding-left: 50px;
+    
+}
+
+.navbar-nav{
+    margin-left: auto;
+    padding: 20px;
+    font-weight: 800;
+
+}
+
+.navbar-nav> * {
+
+    margin-left: 5rem;
+}
+
+.btn1{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+}
+
+.container-fluid{
+    background-color: #FFC700;
+    height: 55px;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+.collapse{
+    display: flex;
+    margin-left: 20px;
+}
+
+section{
+    display: flex;
+}
+
+.content{
+    padding-left: 92px;
+    padding-top: 100px;
+    color: white;
+    font-size:64px;
+    font-weight: 550;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Small{
+    padding-left: 92px;
+    color: white !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+.btnn{
+    background-color: #FFC700 ;
+    color: black;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 900;
+    width: 30%;
+    margin-left: 100px;
+}
+
+.img1{
+    width: 572px;
+    height: 464px;
+    margin-left: 400px;
+    margin-top: 70px;
+    opacity: 1;
+}
+
+
+
+/* feedbacks */
+
+.feed{
+    padding-top: 30px;
+    font-size: 50px !important;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.feedback{
+    height: 500px;
+    width: 100%;
+    background-color: #FFC700;
+    border-radius: 70px;
+}
+
+.feedback-image{
+    display: flex;
+}
+
+img{
+    border-radius: 20% !important;
+    opacity: 0.5;
+}
+
+.img2{
+    height: 300px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.img3{
+    height: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.img4{
+    height: 500px;
+    border-radius: 60px;
+    opacity: 1;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: px;
+}
+
+.img5{
+    height: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.img6{
+    height: 300px;
+    padding: 20px;
+    
+    margin-top: 100px;
+}
+
+#hover:hover{
+    opacity: 1;
+    transition: 1s;
+}
